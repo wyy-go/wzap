@@ -1,10 +1,8 @@
-module github.com/wyy-go/go-cli-template
+module github.com/wyy-go/wzap
 
-go 1.17
-
-require github.com/spf13/cobra v1.2.1
+go 1.16
 
 require (
-	github.com/inconshreveable/mousetrap v1.0.0 // indirect
-	github.com/spf13/pflag v1.0.5 // indirect
+	github.com/gin-gonic/gin v1.7.7
+	go.uber.org/zap v1.19.1
 )
